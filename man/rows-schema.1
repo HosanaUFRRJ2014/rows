@@ -1,0 +1,30 @@
+.TH "ROWS SCHEMA" "1" "14-Feb-2019" "0.4.1" "rows schema Manual"
+.SH NAME
+rows\-schema \- Identifies table schema
+.SH SYNOPSIS
+.B rows schema
+[OPTIONS] SOURCE [OUTPUT]
+.SH DESCRIPTION
+Identifies table schema
+.SH OPTIONS
+.TP
+\fB\-\-input\-encoding\fP TEXT
+.PP
+.TP
+\fB\-\-input\-locale\fP TEXT
+.PP
+.TP
+\fB\-\-verify\-ssl\fP BOOLEAN
+.PP
+.TP
+\fB\-f,\fP \-\-format [txt|sql|django]
+.PP
+.TP
+\fB\-\-fields\fP TEXT
+A comma-separated list of fields to inspect
+.TP
+\fB\-\-fields\-exclude\fP TEXT
+A comma-separated list of fields to exclude from inspection
+.TP
+\fB\-\-samples\fP INTEGER
+Number of rows to determine the field types (0 = all)
